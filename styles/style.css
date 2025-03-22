@@ -188,6 +188,10 @@
   outline: none;
 }
 
+.card__icon-button:focus-visible {
+  outline: var(--border-default);
+}
+
 .core,
 .main-body {
   fill: transparent;
@@ -214,10 +218,6 @@
 .sparks {
   fill: var(--red-heart);
   opacity: 0;
-}
-
-.card__icon-button:focus-visible {
-  outline: var(--border-default);
 }
 
 .like-icon:hover .core {
@@ -294,6 +294,9 @@
 
 .card__like-button:focus {
   outline: none;
+}
+
+.card__like-button:focus-visible {
   box-shadow: 2px 2px var(--main-color);
 }
 
@@ -341,6 +344,9 @@
 
 .dialog__button-open:focus {
   outline: none;
+}
+
+.dialog__button-open:focus-visible {
   box-shadow: 2px 2px var(--main-color);
 }
 
@@ -374,6 +380,9 @@
 
 .dialog__button-close:focus {
   outline: none;
+}
+
+.dialog__button-close:focus-visible {
   box-shadow: 2px 2px var(--main-color);
 }
 
