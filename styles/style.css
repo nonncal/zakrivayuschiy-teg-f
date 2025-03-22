@@ -177,7 +177,7 @@
 }
 
 .card__icon-button {
-  block-size: 36px; /* ???? */
+  block-size: 36px;
   padding: 0;
   background-color: transparent;
   border: none;
