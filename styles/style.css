@@ -234,12 +234,10 @@
 }
 
 .like-icon.is-liked .heart {
-  /* stylelint-disable-next-line no-unknown-animations */
   animation: heartScaling 0.3s 0.1s 1 ease-in;
 }
 
 .like-icon.is-liked .sparks {
-  /* stylelint-disable-next-line no-unknown-animations */
   animation: sparksRise 0.3s 0.3s 1 ease-in;
 }
 
