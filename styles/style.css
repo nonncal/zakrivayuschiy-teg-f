@@ -35,7 +35,6 @@
 
 .content-width {
   inline-size: var(--content-width);
-  min-inline-size: 375px;
 }
 
 .header__title {

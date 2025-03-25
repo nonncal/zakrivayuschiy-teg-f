@@ -6,7 +6,7 @@
   --main-text-weight: 400;
   --main-text-title-weight: 700;
   --main-color: #000;
-  --content-width: min(100vw, 700px);
+  --content-width: min(100%, 700px);
   --border-default: 2px solid var(--main-color);
   --stroke-color: #fff;
   --gradient: repeating-linear-gradient(
